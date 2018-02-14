@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Message Modifier</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Message Modifier</h1>
+    <form action="#" th:action="@{/modify}" th:object="${modifyRequest}" method="post">
+        <p>Message</p>
+        <textarea cols="120" rows="10" th:field="*{content}"></textarea>
+        <p>Script</p>
+        <textarea cols="120" rows="10" th:field="*{script}" ></textarea>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>

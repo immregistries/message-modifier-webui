@@ -1,0 +1,1 @@
+java -jar target/message-modifier-webui-0.1.0.jar
