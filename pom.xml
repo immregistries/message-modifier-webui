@@ -22,6 +22,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>gov.nist.healthcare.hl7</groupId>
+			<artifactId>message-modifier</artifactId>
+			<version>0.1.0</version>
+		</dependency>
 
 	</dependencies>
 

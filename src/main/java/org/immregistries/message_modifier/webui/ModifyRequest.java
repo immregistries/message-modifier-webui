@@ -5,8 +5,17 @@ public class ModifyRequest {
     private long id;
     private String script;
     private String content;
+    private String contentResult;
     
-    public String getScript() {
+    public String getContentResult() {
+		return contentResult;
+	}
+
+	public void setContentResult(String contentResult) {
+		this.contentResult = contentResult;
+	}
+
+	public String getScript() {
 		return script;
 	}
 
